@@ -1,0 +1,254 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Mecherlesans, sans-serif;
+}
+
+.navbar {
+    background-color:#519966;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    #logo {
+        color:white;
+        margin-left: 30px;
+        font-size: 28px;
+        }
+
+    .menu{
+        list-style-type: none;
+        display: flex;
+    }
+        
+        .menu-item a{
+            margin-left: 60px;
+            text-decoration: none;
+            font-size: 28px;
+            color:white;
+            font-weight: 800;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-right-style: solid;
+            border-left-style: solid;
+            
+        }
+        
+        li a:hover{
+            color: #826644;
+        }
+
+
+    .log-in-box {
+        display: flex;
+        margin-right: 30px;
+
+    }
+
+        .log-in-box a {
+            text-decoration: none;
+            font-size: 40px;
+            color:white;
+            font-weight: 800;
+            border-style: solid;
+            border-width: 6px;
+            padding: 5px;
+            border-radius: 10px;
+
+        }
+
+        .log-in-box a:hover {
+            color:#826644
+        }
+
+.nav-first-middle {
+    height: 15px;
+    background-color: #826644;
+}
+
+.firstbox {
+    height: 350px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .first-textbox h1{
+        color:#519966;
+        font-size: 80px;
+        margin-left: 100px;
+        margin-top: -50px;
+    }
+
+    .first-imgbox {
+    }
+        #garbage {
+            border-style: solid;
+            border-color: #826644;
+            border-width: 9px;
+            height: 300px;
+            margin-left: 200px;
+
+        }
+
+    .first-list {
+        color:#519966;
+        padding-right: 60px;
+    }
+
+        .first-list li{
+            list-style-type:none;
+            font-size: 30px;
+            padding: 10px;
+            font-weight: 900;
+
+        }
+
+.first-second-middle {
+    height: 15px;
+    background-color: #826644;
+}
+
+.secondbox {
+    height: 350px;
+    background-color:#519966;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .second-textbox h1{
+        color:white;
+        font-size: 80px;
+        margin-left: 120px;
+        margin-top: -50px;
+    }
+
+.second-imgbox {
+}
+    #clean {
+        border-style: solid;
+        border-color:#826644;
+        border-width: 9px;
+        height: 300px;
+        margin-right: 200px;
+
+    }
+
+    .second-list {
+        color:white;
+        padding-left: 80px;
+    }
+
+        .second-list li{
+            list-style-type:none;
+            font-size: 30px;
+            padding: 10px;
+            font-weight: 900;
+
+        }
+
+.second-third-middle {
+    height: 15px;
+    background-color: #826644;
+}
+
+.thirdbox {
+    height: 350px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+        
+    .third-textbox h1{
+        color:#519966;
+        font-size: 80px;
+        margin-left: 60px;
+        margin-top: -50px;
+    }
+
+    .third-imgbox {
+    }
+         #cards {
+            border-style: solid;
+            border-color: #826644;
+            border-width: 9px;
+            height: 300px;
+            margin-left: 180px;
+            width: 65%;
+        }
+        
+    .third-list {
+        color:#519966;
+        padding-right: 50px;
+    }
+        
+        .third-list li{
+            list-style-type:none;
+            font-size: 30px;
+            padding: 10px;
+            font-weight: 900;
+        }
+
+.third-last-middle {
+    height: 15px;
+    background-color: #826644;
+}
+
+.fourthbox {
+    height: 200px;
+    background-color:#519966;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .fourthbox-first {
+        margin-left: 300px;
+        color:white;
+        font-size: 20px;
+    }
+
+        .fourthbox-first-list {
+            list-style-type: none;
+        }
+
+            .fourthbox-first-list a {
+                text-decoration: none;
+                color:white;
+            }
+
+    .fourthbox-second {
+        color:white;
+        font-size: 20px;
+    }
+
+        .fourthbox-second-list {
+            list-style-type: none;
+        }
+        
+            .fourthbox-second-list a {
+                text-decoration: none;
+                color:white;
+            }
+
+    .fourthbox-third {
+        margin-right: 300px;
+        color:white;
+        font-size: 20px;
+    }
+
+        .fourthbox-third-list {
+            list-style-type: none;
+        }
+        
+            .fourthbox-third-list a {
+                text-decoration: none;
+                color:white;
+            }
+
+

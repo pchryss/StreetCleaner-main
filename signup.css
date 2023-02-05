@@ -1,0 +1,147 @@
+* {
+    margin:0px;
+    padding:0px;
+    background-color: #519966;
+    font-family: Mecherlesans, sans-serif;
+}
+
+.navbar {
+    background-color:#519966;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    #logo {
+        color:white;
+        margin-left: 30px;
+        font-size: 28px;
+        }
+
+    .menu{
+        list-style-type: none;
+        display: flex;
+    }
+        
+        .menu-item a{
+            margin-left: 60px;
+            text-decoration: none;
+            font-size: 28px;
+            color:white;
+            font-weight: 800;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-right-style: solid;
+            border-left-style: solid;
+            
+        }
+        
+        li a:hover{
+            color: #826644;
+        }
+
+
+    .log-in-box {
+        display: flex;
+        margin-right: 30px;
+
+    }
+
+        .log-in-box a {
+            text-decoration: none;
+            font-size: 40px;
+            color:white;
+            font-weight: 800;
+            border-style: solid;
+            border-width: 6px;
+            padding: 5px;
+            border-radius: 10px;
+
+        }
+
+        .log-in-box a:hover {
+            color:#826644
+        }
+
+        .nav-first-middle {
+            height: 15px;
+            background-color: #826644;
+        }  
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+    .title-text {
+        color: white;
+        font-size: 40px;
+    }
+
+.loginPage {
+
+}
+
+    .form {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        width: 200px;
+        margin-top: 20%;
+        margin-left: 35%;
+        font-size: 18px;
+    }
+
+        .email {
+            padding-left: 5px;
+        }
+        #email {
+            margin-top: 5px;
+            background-color: white;
+            
+            
+        }
+
+        .pass {
+            padding-top: 10px;
+            padding-left: 25px;
+        }
+        #pass {
+            margin-top: 5px;
+            background-color: white;
+        }
+
+        #submitButton {
+            color: white;
+            font-size: 30px;
+            border-width: 4px;
+            border-color: white;
+            padding: 5px;
+            margin-top: 15px;
+
+        }
+
+        #submitButton:hover{
+            color:#826644;
+            border-color: #826644;
+        }
+
+.loginContainer {
+    background-color: #519966;
+    height: 450px;
+    width: 700px;
+    margin-left: 25%;
+    border-style: solid;
+    border-width: 15px;
+    border-color:#826644;
+    border-radius: 15px;
+}
+
+
+
+
+
